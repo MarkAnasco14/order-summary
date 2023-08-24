@@ -1,0 +1,123 @@
+body{
+    background: url(images/pattern-background-desktop.svg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+@media (min-width: 360px) {
+.content{
+    background: url(images/illustration-hero.svg) no-repeat;
+    background-color: #fff;
+    width: 250px;
+    height: 520px;
+    padding: 25px 86px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border-radius: 30px;
+}
+
+.centertag{
+    font-family: Red Hat Display;
+    font-size: 20px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    margin-top: 14rem;
+}
+.centertag .nametag{
+    font-family: Red Hat Display;
+    font-weight: 500;
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+    margin-bottom: 2rem;
+}
+.lettertag{
+    margin-top: 10px;
+    height: 4.5em;
+    width:  230px;
+}
+.nametag{
+    font-family:Red Hat Display;
+    width: 241px;
+    margin: 0 auto;
+    color: hsl(226, 34%, 85%);
+}
+
+.billplan{
+    background-color: hsl(225, 100%, 98%);
+    height: 3.9em;
+    width:  250px;
+    border-radius: 15px;
+    display: block;
+}
+
+.music-picture, .name, .tag{ 
+   display: inline-block;
+}
+
+.music-picture{
+    vertical-align: top;
+    width: 17px;
+    margin-top: 5px;
+}
+
+.billinfo{
+    display: block;
+    margin: -5px 26px;
+    width: 106px;
+}
+.billinfo p{
+    font-size: 15px;
+    color: hsl(223, 47%, 23%);
+    font-family: Red Hat Display;
+    font-weight: 900;
+
+}
+ .name{
+    margin-top: 0;
+    vertical-align: top;
+    width: 212px;
+ }
+ .peso{
+    color: gray;
+    font-weight: 500;
+ }
+
+ .tag{
+    cursor: pointer;
+    font-family: Red Hat Display;
+    color:hsl(245, 75%, 52%);
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: underline;
+    vertical-align: top;
+    margin-top: -42px;
+    margin-left: 140px;
+    
+ }
+
+
+button{
+    background-color:hsl(245, 75%, 52%);
+    border: none;
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 21px;
+}
+.cancelorder{
+    cursor: pointer;
+    font-family: Red Hat Display;
+    font-size: 16px;
+    font-weight: 700;
+    color: hsl(245, 74%, 63%);
+}
+
+button:hover{
+    color: bisque;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    cursor: pointer;
+}
